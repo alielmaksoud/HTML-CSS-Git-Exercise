@@ -6,7 +6,7 @@
 
 header nav ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .main-article {
@@ -27,7 +27,7 @@ header nav ul {
 }
 
 @media only screen and (min-width: 767px) {
-  header {
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
